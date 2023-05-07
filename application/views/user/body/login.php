@@ -1,4 +1,4 @@
-<div class=" xyz ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
+<div class=" xyz ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(<?php echo base_url('assets/images/bg/4.jpg') ?>) no-repeat scroll center center / cover ;">
             <div class="ht__bradcaump__wrap">
                 <div class="container">
                     <div class="row">
@@ -27,22 +27,22 @@
 								</div>
 							</div>
 							<div class="col-xs-12">
-								<form id="contact-form" action="#" method="post">
-									<div class="single-contact-form">
-										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Email*" style="width:100%">
-										</div>
+							<form id="contact_form" autocomplete="off">
+  						<div class="single-contact-form">
+    					<div class="contact-box name">
+      						<input type="email" name="login_email" id="login_email" placeholder="Your Email*" style="width:100%" autocomplete="new-password">
+    						</div>
+								</div>
+								<div class="single-contact-form">
+									<div class="contact-box name">
+									<input type="password" name="login_password" id="login_password" placeholder="Your Password*" style="width:100%" autocomplete="new-password">
 									</div>
-									<div class="single-contact-form">
-										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Password*" style="width:100%">
-										</div>
-									</div>
-									
-									<div class="contact-btn">
-										<button type="submit" class="fv-btn">Login</button>
-									</div>
+								</div>
+								<div class="contact-btn">
+									<input type="button" id="user_login" value="Login" class="fv-btn">
+								</div>
 								</form>
+
 								<div class="form-output">
 									<p class="form-messege"></p>
 								</div>
@@ -63,22 +63,22 @@
 								<form id="contact-form" action="#" method="post">
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Name*" style="width:100%">
+											<input type="text" name="name" placeholder="Your Name*" style="width:100%" autocomplete="off">
 										</div>
 									</div>
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Email*" style="width:100%">
+											<input type="text" name="name" placeholder="Your Email*" style="width:100%" autocomplete="off">
 										</div>
 									</div>
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Mobile*" style="width:100%">
+											<input type="text" name="name" placeholder="Your Mobile*" style="width:100%" autocomplete="off">
 										</div>
 									</div>
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Password*" style="width:100%">
+											<input type="text" name="name" placeholder="Your Password*" style="width:100%" autocomplete="off">
 										</div>
 									</div>
 									

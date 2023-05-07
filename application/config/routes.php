@@ -50,13 +50,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'welcome';
-//my first custom route
-// num can take only number as a parameter
-$route['setting/(:num)']='home/setting/$1';
-
-//my first custom route
-//  any can take any data type as a parametar
-$route['profile/(:any)']='home/profile/$1';
-
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+

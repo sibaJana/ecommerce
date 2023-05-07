@@ -8,13 +8,13 @@
                         <div class="menumenu__container clearfix">
                             <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5"> 
                                 <div class="logo">
-                                     <a href="<?php base_url('DisplayContant/index') ?>"><img src="images/logo/4.png" alt="logo images"></a>
+                                     <a href="<?php echo base_url('DisplayContant/index'); ?>"><img src="<?php echo base_url('assets/images/logo/4.png') ?>" alt="logo images"></a>
                                 </div>
                             </div>
                             <div class="col-md-7 col-lg-8 col-sm-5 col-xs-3">
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
-                                        <li class="drop"><a href="javascript:void(0)">Home</a></li>
+                                        <li class="drop"><a href="<?php echo base_url('DisplayContant/'); ?>">Home</a></li>
                                         <li class="drop"><a href="javascript:void(0)">women</a>
                                             <!-- <ul class="dropdown mega_dropdown">
                                                

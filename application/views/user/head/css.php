@@ -26,6 +26,9 @@
     <!-- Modernizr JS -->
     <script src="<?php  echo base_url('assets/js/vendor/modernizr-3.5.0.min.js') ?>"></script>
 
+    <!-- toastr cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
     </head>
     <body>
         
