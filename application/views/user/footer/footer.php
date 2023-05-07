@@ -1,5 +1,5 @@
 <!-- Start Footer Area -->
-<footer id="htc__footer">
+<footer id="htc__footer " class="xyz">
             <!-- Start Footer Widget -->
             <div class="footer__container bg__cat--1">
                 <div class="container">

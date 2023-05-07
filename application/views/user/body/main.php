@@ -2,9 +2,9 @@
         <!-- Start Offset Wrapper -->
         <div class="offset__wrapper">
             <!-- Start Search Popap -->
-            <div class="search__area">
+            <div class="search__area xyz">
                 <div class="container" >
-                    <div class="row" >
+                    <div class="row xyz" >
                         <div class="col-md-12" >
                             <div class="search__inner">
                                 <form action="#" method="get">
@@ -21,7 +21,7 @@
             </div>
             <!-- End Search Popap -->
             <!-- Start Cart Panel -->
-            <div class="shopping__cart">
+            <div class="shopping__cart xyz">
                 <div class="shopping__cart__inner">
                     <div class="offsetmenu__close__btn">
                         <a href="#"><i class="zmdi zmdi-close"></i></a>
@@ -72,7 +72,7 @@
         </div>
         <!-- End Offset Wrapper -->
         <!-- Start Slider Area -->
-        <div class="slider__container slider--one bg__cat--3">
+        <div class="slider__container slider--one bg__cat--3 xyz">
             <div class="slide__container slider__activation__wrap owl-carousel">
                 <!-- Start Single Slide -->
                 <div class="single__slide animation__style01 slider__fixed--height">
@@ -99,7 +99,7 @@
                 </div>
                 <!-- End Single Slide -->
                 <!-- Start Single Slide -->
-                <div class="single__slide animation__style01 slider__fixed--height">
+                <div class="single__slide animation__style01 slider__fixed--height xyz">
                     <div class="container">
                         <div class="row align-items__center">
                             <div class="col-md-7 col-sm-7 col-xs-12 col-lg-6">
@@ -126,7 +126,7 @@
         </div>
         <!-- Start Slider Area -->
         <!-- Start Category Area -->
-        <section class="htc__category__area ptb--100">
+        <section class="htc__category__area ptb--100 xyz">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="htc__product__container">
+                <div class="htc__product__container xyz">
                     <div class="row">
                         <div class="product__list clearfix mt--30">
                             <!-- Start Single Category -->
@@ -167,7 +167,7 @@
                             </div>
                             <!-- End Single Category -->
                             <!-- Start Single Category -->
-                            <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
+                            <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12 xyz">
                                 <div class="category">
                                     <div class="ht__cat__thumb">
                                         <a href="product-details.html">
@@ -362,7 +362,7 @@
         </section>
         <!-- End Category Area -->
         <!-- Start Product Area -->
-        <section class="ftr__product__area ptb--100">
+        <section class="ftr__product__area ptb--100 xyz">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">

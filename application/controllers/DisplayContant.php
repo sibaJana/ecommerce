@@ -10,6 +10,7 @@ class DisplayContant extends CI_Controller{
     $this->load->view('user/head/header');
     $this->load->view('user/head/css');
     $this->load->view('user/head/navbar');
+    $this->load->view('user/user_animation');
     $this->load->view('user/body/main');
     $this->load->view('user/footer/footer');
     $this->load->view('user/footer/js');
@@ -18,12 +19,14 @@ class DisplayContant extends CI_Controller{
    public function loginPage(){
     $this->load->view('user/head/header');
     $this->load->view('user/head/css');
+    $this->load->view('user/user_animation');
     $this->load->view('user/head/navbar');
     $this->load->view('user/body/login');
     $this->load->view('user/footer/footer');
     $this->load->view('user/footer/js');
     $this->load->view('user/footer/endhtml');
    }
+
 }
 
 ?>
