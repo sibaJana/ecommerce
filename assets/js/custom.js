@@ -1,5 +1,6 @@
 /* ***************for animation*************** */
 $(document).ready(function() {
+
     // show the overlay and disable clicks
     $('.overlay').show();
     // $('body').addClass('loading');
@@ -12,5 +13,15 @@ $(document).ready(function() {
     $('.xyz').show();
   }, 3000);
   
-  });
+  
   /* ***************END*************** */
+
+/* ***************LOGIN*************** */
+
+
+  
+
+
+
+
+});
