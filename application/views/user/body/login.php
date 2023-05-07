@@ -1,4 +1,4 @@
-<div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
+<div class=" xyz ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
             <div class="ht__bradcaump__wrap">
                 <div class="container">
                     <div class="row">
@@ -16,7 +16,7 @@
             </div>
         </div>
         
-<section class="htc__contact__area ptb--100 bg__white">
+<section class="htc__contact__area ptb--100 bg__white xyz">
             <div class="container">
                 <div class="row">
 					<div class="col-md-6">

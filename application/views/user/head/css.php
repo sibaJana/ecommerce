@@ -20,8 +20,12 @@
     <!-- User style -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css')  ?>">
 
+    <!-- for amination css -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/user.css')  ?>">
 
     <!-- Modernizr JS -->
     <script src="<?php  echo base_url('assets/js/vendor/modernizr-3.5.0.min.js') ?>"></script>
 
     </head>
+    <body>
+        

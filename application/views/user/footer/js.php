@@ -9,4 +9,5 @@
     <script src="<?php echo base_url('assets/js/waypoints.min.js') ?>"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="<?php echo base_url('assets/js/main.js') ?>"></script>
+    <!-- custom design -->
     <script src="<?php echo base_url('assets/js/custom.js') ?>"></script>
