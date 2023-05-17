@@ -60,30 +60,31 @@
 								</div>
 							</div>
 							<div class="col-xs-12">
-								<form id="contact-form" action="#" method="post">
+								<form id="register_form">
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Name*" style="width:100%" autocomplete="off">
+											<input type="text"  id="user_name" placeholder="Your Name*" style="width:100%" autocomplete="new-password">
 										</div>
 									</div>
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Email*" style="width:100%" autocomplete="off">
+											<input type="email"  id="user_email" placeholder="Your Email*" style="width:100%" autocomplete="new-password">
 										</div>
 									</div>
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Mobile*" style="width:100%" autocomplete="off">
+											<input type="number"  id="user_phone" placeholder="Your Mobile*" style="width:100%" autocomplete="new-password">
 										</div>
 									</div>
 									<div class="single-contact-form">
 										<div class="contact-box name">
-											<input type="text" name="name" placeholder="Your Password*" style="width:100%" autocomplete="off">
+											<input type="password"  id="user_password" placeholder="Your Password*" style="width:100%" autocomplete="new-password">
 										</div>
 									</div>
 									
 									<div class="contact-btn">
-										<button type="submit" class="fv-btn">Register</button>
+										<!-- <button type="submit" class="fv-btn">Register</button> -->
+										<input type="button" id="Register" class="fv-btn" value="Register">
 									</div>
 								</form>
 								<div class="form-output">

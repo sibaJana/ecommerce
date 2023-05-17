@@ -11,6 +11,15 @@ function isSession(){
     
 
 }
+function userEmail(){
+    $CI=get_instance();
+    $CI->load->library('session');
+    if($CI->session->userdata('email')){
+       return $CI->session->userdata('email'); 
+    }   else{
+        return false;
+    }
+}
 function userId(){
     $CI=get_instance();
     $CI->load->library('session');
@@ -29,7 +38,7 @@ function userName(){
         return false;
     }
 }
-function userEmail(){
+/* function userEmail(){
     $CI=get_instance();
     $CI->load->library('session');
     if($CI->session->userdata('email')){
@@ -37,6 +46,6 @@ function userEmail(){
     }   else{
         return false;
     }
-}
+} */
 
 ?>
