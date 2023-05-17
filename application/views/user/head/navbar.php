@@ -14,8 +14,21 @@
                             <div class="col-md-7 col-lg-8 col-sm-5 col-xs-3">
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
-                                        <li class="drop"><a href="<?php echo base_url('DisplayContant/'); ?>">Home</a></li>
-                                        <li class="drop"><a href="javascript:void(0)">women</a>
+                                    <li class="drop"><a href="<?php echo base_url('DisplayContant/'); ?>">Home</a></li>
+
+                                    <?php //echo print_r($data);exit; ?>
+                                        <?php 
+
+                                        if(!empty($data)){
+                                            foreach($data as $d){
+                                                ?>
+                                                <li class="drop"><a href="<?php echo base_url('DisplayContant/product_search/').$d->id; ?>"><?php echo $d->category_name; ?></a>
+                                                <?php
+                                            }
+                                        }
+                                        
+                                        ?>
+                                        <!-- <li class="drop"><a href="javascript:void(0)">women</a> -->
                                             <!-- <ul class="dropdown mega_dropdown">
                                                
                                                 <li><a class="mega__title" href="product-grid.html">Shop Pages</a>
@@ -50,8 +63,8 @@
                                                 </li>
                                                 
                                             </ul> -->
-                                        </li>
-                                        <li class="drop"><a href="javascript:void(0)">men</a>
+                                        <!-- </li> -->
+                                        <!-- <li class="drop"><a href="javascript:void(0)">men</a> -->
                                             <!-- <ul class="dropdown mega_dropdown">
                                                
                                                 <li><a class="mega__title" href="product-grid.html">Shop Pages</a>
@@ -86,20 +99,20 @@
                                                 </li>
                                                 
                                             </ul> -->
-                                        </li>
-                                        <li class="drop"><a href="javascript:void(0)">Product</a>
+                                        <!-- </li> -->
+                                        <!-- <li class="drop"><a href="javascript:void(0)">Product</a> -->
                                            <!--  <ul class="dropdown">
                                                 <li><a href="product-grid.html">Product Grid</a></li>
                                                 <li><a href="product-details.html">Product Details</a></li>
                                             </ul> -->
-                                        </li>
-                                        <li class="drop"><a href="javascript:void(0)">blog</a>
+                                        <!-- </li> -->
+                                        <!-- <li class="drop"><a href="javascript:void(0)">blog</a> -->
                                             <!-- <ul class="dropdown">
                                                 <li><a href="blog.html">Blog Grid</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
                                             </ul> -->
-                                        </li>
-                                        <li class="drop"><a href="javascript:void(0)">Pages</a>
+                                        <!-- </li> -->
+                                        <!-- <li class="drop"><a href="javascript:void(0)">Pages</a> -->
                                             <!-- <ul class="dropdown">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
@@ -110,17 +123,31 @@
                                                 <li><a href="product-details.html">product details</a></li>
                                                 <li><a href="wishlist.html">wishlist</a></li>
                                             </ul> -->
-                                        </li>
-                                        <li><a href="javascript:void(0)">contact</a></li>
+                                        <!-- </li> -->
+                                        <!-- <li><a href="javascript:void(0)">contact</a></li> -->
                                     </ul>
                                 </nav>
 
                                 <div class="mobile-menu clearfix visible-xs visible-sm">
                                     <nav id="mobile_dropdown">
                                         <ul>
-                                            <li><a href="#">Home</a></li>
+                                        <?php 
+
+                                        if(!empty($data)){
+                                            foreach($data as $d){
+                                                ?>
+                                                <!-- <li class="drop"><a href="javascript:void(0)"><?php echo $d->category_name; ?></a> -->
+                                                <li><a href="#"><?php echo $d->category_name; ?></a></li>
+                                            <!-- <li><a href="#">blog</a></li>
+                                            <li><a href="#">pages</a> -->
+                                                <?php
+                                            }
+                                        }
+                                        
+                                        ?>
+                                            <!-- <li><a href="#">Home</a></li>
                                             <li><a href="#">blog</a></li>
-                                            <li><a href="#">pages</a>
+                                            <li><a href="#">pages</a> -->
                                                 <!-- <ul>
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="blog-details.html">Blog Details</a></li>
@@ -143,7 +170,7 @@
                                         <a href="#"><i class="icon-magnifier icons"></i></a>
                                     </div>
                                     <div class="header__account">
-                                        <a href="<?php echo base_url('DisplayContant/loginPage') ?>"><i class="icon-user icons"></i></a>
+                                        <!-- <a href="<?php //echo base_url('DisplayContant/loginPage') ?>"><i class="icon-user icons"></i></a> -->
                                     </div>
                                     <div class="htc__shopping__cart">
                                         <a class="cart__menu" href="#"><i class="icon-handbag icons"></i></a>
